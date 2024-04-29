@@ -1,0 +1,39 @@
+.UserManagement {
+    width: 100%;
+  }
+  
+  .UserManagement table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0px;
+  }
+  
+  .UserManagement th, .UserManagement td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .UserManagement tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .UserManagement tr:hover {
+    background-color: #ddd;
+  }
+  
+  .UserManagement th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: middle;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .UserManagement button {
+    margin: 5px 5px;
+    padding: 10px 20px;
+  }
+  
+  .UserManagement button:hover {
+    opacity: 0.8;
+  }
